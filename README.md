@@ -61,7 +61,7 @@
         <br>
         <small>Teknik Informatika</small>
         <br>
-        <a href="https://github.com/username">@username</a>
+        <a href="https://github.com/username">@ariaffandi12</a>
       </td>
     </tr>
   </table>
