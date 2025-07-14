@@ -213,15 +213,15 @@ Git >= 2.0.0
       <td align="center">
         <img src="https://img.shields.io/badge/👑-ADMIN-red?style=for-the-badge" alt="Admin">
         <br>
-        <strong>Email:</strong> admin@warkop.com<br>
-        <strong>Password:</strong> admin123<br>
+        <strong>Email:</strong> admin@digital.com<br>
+        <strong>Password:</strong> admin2025<br>
         <em>Full Access</em>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/👤-KASIR-blue?style=for-the-badge" alt="Kasir">
+        <img src="https://img.shields.io/badge/👤-Pembeli-blue?style=for-the-badge" alt="Buyer">
         <br>
-        <strong>Email:</strong> kasir@warkop.com<br>
-        <strong>Password:</strong> kasir123<br>
+        <strong>Email:</strong> ariaffandi@gmail.com<br>
+        <strong>Password:</strong> ariaffandi<br>
         <em>POS & Customer Access</em>
       </td>
     </tr>
