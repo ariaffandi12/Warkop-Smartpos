@@ -231,7 +231,7 @@ Git >= 2.0.0
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/bayuence/warkop-smartpos.git
+   git clone git clone https://github.com/bayuence/warkop-smartpos.git
    cd warkop-smartpos
    ```
 
