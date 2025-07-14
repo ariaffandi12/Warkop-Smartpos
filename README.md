@@ -231,8 +231,8 @@ Git >= 2.0.0
 
 1. **Clone Repository**
    ```bash
-   git clone git clone https://github.com/bayuence/warkop-smartpos.git
-   cd warkop-smartpos
+   git clone git clone git clone git clone https://github.com/ariaffandi12/Warkop-Smartpos
+   cd Warkop-Smartpos
    ```
 
 2. **Install Dependencies**
