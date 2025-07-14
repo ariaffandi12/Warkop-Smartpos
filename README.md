@@ -222,7 +222,7 @@ Git >= 2.0.0
         <br>
         <strong>Email:</strong> ariaffandi@gmail.com<br>
         <strong>Password:</strong> ariaffandi<br>
-        <em>POS & Customer Access</em>
+        <em>Customer Access</em>
       </td>
     </tr>
   </table>
@@ -372,7 +372,7 @@ SMTP_PASS="your-app-password"
 2. **Setup GitHub Repository**
    ```bash
    # Buat repository baru di GitHub dengan nama 'warkop-smartpos'
-   git remote add origin https://github.com/bayuence/warkop-smartpos.git
+   git remote add origin https://github.com/ariaffandi12/Warkop-Smartpos
    git branch -M main
    git push -u origin main
    ```
@@ -458,7 +458,7 @@ Kami sangat menghargai kontribusi dari komunitas! Ikuti langkah berikut:
       </td>
       <td align="center">
         <strong>🌐 GitHub</strong><br>
-        <a href="https://github.com/bayuence/warkop-smartpos">Repository</a>
+        <a href="https://github.com/ariaffandi12/Warkop-Smartpos">Repository</a>
       </td>
       <td align="center">
         <strong>📱 Demo</strong><br>
