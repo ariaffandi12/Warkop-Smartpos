@@ -25,6 +25,61 @@
 
 ---
 
+# 📦 Backend Warkop SmartPOS
+
+Backend aplikasi ini dibangun menggunakan Next.js API Routes dan TypeScript. Semua logic backend (REST API, database query, autentikasi, dsb) terdapat di folder `app/api/`.
+
+## Struktur Folder Backend
+
+```
+app/
+├── api/
+│   ├── auth/         # Autentikasi & login
+│   ├── products/     # Produk/menu
+│   ├── orders/       # Order/pesanan
+│   ├── categories/   # Kategori produk
+│   ├── tables/       # Data meja
+│   └── dashboard/    # Statistik dashboard
+├── lib/
+│   └── database.ts   # Helper query database
+```
+
+## Teknologi Backend
+
+- Next.js API Routes (serverless)
+- TypeScript
+- PostgreSQL/MySQL (via Neon/Prisma/Knex)
+- JWT Authentication (siap integrasi)
+- Input validation & error handling
+
+## Contoh Endpoint
+
+| Endpoint                | Method | Deskripsi                |
+|-------------------------|--------|--------------------------|
+| `/api/auth/login`       | POST   | Login user               |
+| `/api/products`         | GET    | Ambil data produk/menu   |
+| `/api/orders`           | POST   | Buat pesanan baru        |
+| `/api/categories`       | GET    | Ambil kategori produk    |
+| `/api/tables`           | GET    | Ambil data meja          |
+| `/api/dashboard/stats`  | GET    | Statistik dashboard      |
+
+## Database Helper
+
+Semua query database dan logic tambahan ada di `lib/database.ts`.
+
+## Cara Menambah Endpoint
+
+1. Buat file baru di `app/api/[nama-endpoint]/route.ts`
+2. Implementasikan logic API sesuai kebutuhan (lihat contoh di folder yang sudah ada)
+3. Gunakan helper dari `lib/database.ts` untuk query data
+
+---
+
+Jika ingin integrasi dengan database real, pastikan environment variable `DATABASE_URL` sudah diatur di `.env.local`.
+
+---
+
+
 ## 🎯 **Tentang Proyek**
 
 **Warkop SmartPOS** adalah aplikasi web fullstack yang dirancang khusus untuk modernisasi warung kopi tradisional. Sistem ini menyediakan solusi lengkap untuk manajemen penjualan, inventory, pelanggan, dan analisis bisnis dengan interface yang intuitif dan teknologi terdepan.
