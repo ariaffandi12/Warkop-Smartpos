@@ -270,7 +270,7 @@ Git >= 2.0.0
       <td align="center">
         <img src="https://img.shields.io/badge/👑-ADMIN-red?style=for-the-badge" alt="Admin">
         <br>
-        <strong>Email:</strong> admin@digital.com<br>
+        <strong>Email:</strong> admin@warkop.digital<br>
         <strong>Password:</strong> admin2025<br>
         <em>Full Access</em>
       </td>
